@@ -10,8 +10,8 @@
 
     <h1 style="text-align: center; text-decoration: underline"> Student Registration Form </h1>
     <form style="background-color: blueviolet;">
-        <label>First Name </label>
-        <input type="text" required>
+        <label for="firstname">First Name </label>
+        <input type="text"  id="firstname"  name ="firstname">
         <label>(max 30 char a-z and A-z)</label>
         <br /><br />
         <label>Last Name </label>
@@ -20,7 +20,7 @@
         <br /><br />
 
         <label>Date of Birth</label>
-        <input type="date" required>
+        <input type="day" required>
         <br /><br />
 
         <label>Email ID </label>
@@ -120,14 +120,29 @@
                     <tfoot>
                         <tr>
                             <td>4 Masters </td>
-                            <td><input type="text" required><label><br />(10 char max)</label> </td>
+                            <td><input type="text" required></td>
+                        
                             <td> <input type="text" required></td>
-                            <td> <input type="text" required> </td>
-
-                            <br />
-
-                            </td>
+                            <td> <input type="text" required></td>
+                            
+                
                         </tr>
+                        <tr>
+                            <td></td>
+                            <td><label>(10 char max)</label></td>
+                            <td><label>(upto 2 decimal)</label></td>
+                           
+                        
+                        
+                        </tr>
+
+
+
+
+
+
+
+
                     </tfoot>
                 </table>
 
